@@ -1,0 +1,7 @@
+<button (click)="submit()" class="primary" [disabled]="disabled">
+    @if(!loading){
+        {{btnText}}
+    }@else {
+        <span>Carregando...</span>
+    }
+</button>
