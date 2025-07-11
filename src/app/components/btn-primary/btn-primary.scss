@@ -5,24 +5,24 @@ button{
     
     cursor:pointer;
     padding: 20px 40px;
+    border-radius: 30px;
+    border: none;
 
     &:disabled{
         opacity: 0.6;
     }
 
-    &.primary{
-        width: 450px;
-        height: 80px;
+    &.btn-primary{
+        //width: 450px;
+        //height: 80px;
         font-size: 24px;
         font-family: "poppins", sans-serif;
         font-weight: bold;
-        border-radius: 30px;
-        border: none;
         color: white;
         background: linear-gradient(180deg, $primary-color, $secondary-color);
     }
 
-    &.secondary{
+    &.btn-secondary{
         background:white;
         color: $primary-text;
         font-size: 16px;

@@ -1,0 +1,3 @@
+interface newsResponse{
+    message: string;
+}
