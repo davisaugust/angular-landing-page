@@ -1,0 +1,20 @@
+.img-container{
+    display: flex;
+    justify-items: center;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 609px;
+    padding: 70px 0;
+
+    h3{
+        font-size: 32px;
+        margin: 0;
+        padding: 25px 0 12px 0;
+        font-weight: 600px;
+    }
+
+    img{
+        height:588px;
+        width: 609px;
+    }
+}

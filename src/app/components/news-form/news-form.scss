@@ -38,6 +38,16 @@
             border-bottom: 1px solid white;
             width: 100%;
             height: 60px;
+            color: white;
+            margin: 10px 0;
+         }
+
+         input:focus{
+            outline: none;
+         }
+
+         input::placeholder{
+            color: rgb(202, 202, 202);
          }
     }
 }

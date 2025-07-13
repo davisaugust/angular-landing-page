@@ -7,7 +7,7 @@ import { Observable } from 'rxjs';
 })
 export class News {
 
-  private endpointUrl = 'https://faed47pcwb7biktidlecuafuty0aegep.lambda-url.us-east-1.on.aws/';
+  private endpointUrl = '/api';
 
   constructor(private http: HttpClient) { }
 

@@ -65,7 +65,14 @@ main{
         display: flex;
         justify-content: center;
         align-items: center;
-        margin: 150px 0; 
+        margin: 120px 0; 
+    }
+    
+    .examples-section{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 170px;
     }
 
     @media (min-width: 1080px){
