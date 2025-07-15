@@ -1,0 +1,15 @@
+.container {
+  display: flex;
+  align-items: center; /* opcional, para alinhar verticalmente */
+  padding: 0 80px 50px 80px;
+  
+  h3{
+    margin-left: 10px;
+  }
+  .social-media {
+        display: flex;
+        margin-left: auto;
+        gap: 10px;
+    }
+}
+

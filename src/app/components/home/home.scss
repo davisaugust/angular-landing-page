@@ -75,6 +75,24 @@ main{
         gap: 170px;
     }
 
+    .pre-footer{
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 45px 200px;
+
+        h2{
+            min-width:1150px;
+            font-size:60px;
+            font-weight: 700;
+            text-align: center;
+            padding-bottom: 50px;
+            
+        }
+    }
+
     @media (min-width: 1080px){
         .main-section{
             flex-direction: row;
